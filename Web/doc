@@ -1,0 +1,10 @@
+gradle build:
+build/libs/web.war
+
+simple request: http://localhost:8080/?name=Recruto&message=Давай дружить
+
+gradle task(gradle runWildfly):
+runWildfly - deploy war file on windfly
+
+gradle task(gradle startTomcat):
+startTomcat - deploy war file on tomcat
