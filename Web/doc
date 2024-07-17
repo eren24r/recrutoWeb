@@ -1,7 +1,7 @@
 gradle build:
 build/libs/web.war
 
-simple request: http://localhost:8080/?name=Recruto&message=Давай дружить
+simple request: eren@161.35.247.227/?name=Recruto&message=Давай дружить
 
 gradle task(gradle runWildfly):
 runWildfly - deploy war file on windfly
